@@ -1,0 +1,33 @@
+# Environment variables (NEVER commit .env files with credentials)
+.env
+.env.local
+.env.*.local
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Database
+database.sqlite
+database.sqlite-journal
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# IDE files
+.idea/
+*.swp
+*.swo
+*~
+
+# Build artifacts
+dist/
+build/
+
+# Logs
+logs/
+*.log
